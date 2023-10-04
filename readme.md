@@ -1,4 +1,6 @@
-Mongeasy aims to simplify the process of creating Mongoose schemas using a straightforward syntax for defining the schema structure. It employs a flag-based declaration paradigm known as CSS (Carnage Schema Syntax). 
+![1696442311361](image/readme/1696442311361.png)
+
+Mongeasy aims to simplify the process of creating Mongoose schemas using a straightforward syntax for defining the schema structure. It employs a flag-based declaration paradigm known as CSS (Carnage Schema Syntax).
 
 ## Example:
 
@@ -41,7 +43,7 @@ all supported, as we directly pass to Core Library
 
 * [ Array, Boolean, BigInt, Buffer, Date, Decimal, Decimal128, DocumentArray, Map, Mixed, Number, ObjectId, String, Subdocument, UUID, Oid, Object, Bool, ObjectID ]
 
-**Modifiers:** 
+**Modifiers:**
 
 The syntax consists of the following elements:
 Note: "/" means "either option"
