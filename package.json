@@ -1,0 +1,22 @@
+{
+  "name": "mongeasy",
+  "type": "module",
+  "version": "0.6.0",
+  "description": "a lightweight wrapper and mongoose schema declaration language, for beginners and experts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "keywords": [
+    "mongoose",
+    "schema",
+    "language",
+    "shorthand",
+    "shortcut"
+  ],
+  "author": "M Nikhil Swami (Nikhil-Software-Cartel)",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^7.4.5"
+  }
+}
