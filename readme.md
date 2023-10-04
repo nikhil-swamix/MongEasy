@@ -20,7 +20,7 @@ let Computer = model({
 
 ## **Output**
 
-will give you a reference to model "Computer", ie a schema.tree output as follows
+will give you a reference to model "Computer", ie a schema.tree output as follows.
 
 ```javascript
 tree: {
