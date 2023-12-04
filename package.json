@@ -1,7 +1,7 @@
 {
   "name": "mongeasy",
   "type": "module",
-  "version": "0.8.0",
+  "version": "1.0.0",
   "description": "a lightweight wrapper and mongoose schema declaration language, for beginners and experts.",
   "main": "index.js",
   "scripts": {
