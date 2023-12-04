@@ -5,7 +5,7 @@
   "description": "a lightweight wrapper and mongoose schema declaration language, for beginners and experts.",
   "main": "index.js",
   "scripts": {
-    "test": "node tests.js"
+    "publish": "npm publish --access public"
   },
   "keywords": [
     "mongoose",

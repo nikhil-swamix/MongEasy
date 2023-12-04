@@ -24,24 +24,15 @@ let Models = models({
     ],
 });
 
-// console.log(Models);
+console.log(Models); // { Computer: Model { Computer }, Employee: Model { Employee } }
 
-let testschema = schema(['name|String|!|*|#|(3,16)', 'price|Number|*', 'madeIn=India|ref:CountryNames', 'dateOfPurchase|Date', "color|String|*|['red', 'green', 'blue']"]);
-
-let countries = schema(['name|String|!|*|#|(1,99)']);
-
-console.log(testschema);
-
-// -------------------------------------
-// insert into CountryNames (name) values ('India');
-// connect mongoose and insert sample data using testschema
-
+// Connect to database
 mongoose.connect('mongodb://localhost:27017/test', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
 
-// add a computer direct
+// add a computer as usual
 let c = new Models.Computer({
     name: 'Macbook Pro 2',
     price: 2000 + Math.random() * 1000,
@@ -52,7 +43,6 @@ let c = new Models.Computer({
     storageTemp: 50,
     globalStockQty: 100,
 });
-
 c.save();
 
 // exit
