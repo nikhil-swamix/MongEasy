@@ -13,6 +13,7 @@ REFERENCES:
 ['adam','eve'] = enum
 
 TYPES SUPPORTED 
+here are the types supported
 */
 
 
